@@ -31,13 +31,13 @@ The plugin in a separate thread checks the distance from the player's camera to 
 
 After the bots have been separated into waves, they update certain parameters in the next frame - this process is called synchronization with the main thread of the game. The number of bots updated at a time per frame is configured by the console command
 
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](images/image_1.png "image_tooltip")
 
 Green boxes - no optimization, blue boxes - first wave, yellow boxes - second wave, gray boxes - third wave, red boxes - invisible bots
 
-![alt_text](images/image2.gif "image_tooltip")
+![alt_text](images/debug_1.gif "image_tooltip")
 
-![alt_text](images/image3.gif "image_tooltip")
+![alt_text](images/debug_2.gif "image_tooltip")
 
 
 
@@ -45,7 +45,7 @@ Green boxes - no optimization, blue boxes - first wave, yellow boxes - second wa
 
 First you need to install the plugin on the engine. You can do this through the official epic games launcher.
 
-![alt_text](images/image4.png "image_tooltip")
+![alt_text](images/image_2.png "image_tooltip")
 
 
 ## Using plugin as project plugin
