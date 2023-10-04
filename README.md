@@ -67,15 +67,15 @@ Also if you want you can download an [example project](https://drive.google.com/
 
 1. Open your NPC blueprint
 
-![alt_text](images/image5.png "image_tooltip")
+![alt_text](images/image_3.png "image_tooltip")
 
 2. Add component “**Optimization proxy**”
 
-![alt_text](images/image6.png "image_tooltip")
+![alt_text](images/image_4.png "image_tooltip")
 
 3. That’s all, you can jump to game and see performance boost
 
-![alt_text](images/image7.png "image_tooltip")
+![alt_text](images/image_5.png "image_tooltip")
 
 
 ## CPP Project
@@ -83,32 +83,32 @@ Also if you want you can download an [example project](https://drive.google.com/
 
 2. Add NPC_Optimizator to your game dependency modules (inside YOUR_GAME.Build.cs file) (don't forget to enable the plugin in the project file)
 
-![alt_text](images/image8.png "image_tooltip")
+![alt_text](images/image_6.png "image_tooltip")
 
 3. Include “NPC_Optimizator/Public/OptimizationComponent.h” to your character or pawn class
 
-![alt_text](images/image9.png "image_tooltip")
+![alt_text](images/image_7.png "image_tooltip")
 
 4. Add UOptimizationProxyComponent  to your class
 
-![alt_text](images/image10.png "image_tooltip")
+![alt_text](images/image_8.png "image_tooltip")
 
 
 5. Initialize it in constructor 
 
-![alt_text](images/image11.png "image_tooltip")
+![alt_text](images/image_9.png "image_tooltip")
 
 
 6. That’s all, you can build it & test in game
 
-![alt_text](images/image12.png "image_tooltip")
+![alt_text](images/image_10.png "image_tooltip")
 
 
 # Component settings
 
 Optimization component have a huge number of settings for balancing between quality and performance.
 
-![alt_text](images/image13.png "image_tooltip")
+![alt_text](images/image_11.png "image_tooltip")
 
 
 **General settings**
@@ -206,21 +206,21 @@ These settings are applied to optimization waves. You can adjust this for each w
 
 **Disable All Optimizations** - Help function for disable all optimization for character (It is recommended to use it when the bot goes into the state of death)
 
-![alt_text](images/image14.png "image_tooltip")
+![alt_text](images/image_12.png "image_tooltip")
 
 
 **Enable optimizations** - Help function for enable optimizations after disabling 
 
-![alt_text](images/image15.png "image_tooltip")
+![alt_text](images/image_13.png "image_tooltip")
 
 
 ## Component events
 
 **On Change Wave** event - very helpful event for creating custom logic for optimization. Executed when component going to new optimization wave
 
-![alt_text](images/image16.png "image_tooltip")
+![alt_text](images/image_14.png "image_tooltip")
 
-![alt_text](images/image17.png "image_tooltip")
+![alt_text](images/image_15.png "image_tooltip")
 
 
 # Troubleshooting
@@ -233,16 +233,16 @@ If your project uses ragdoll when a character dies, then when you switch to this
 
 2) Call the function “**Disable All Optimizations**” before entering the ragdoll state
 
-![alt_text](images/image18.png "image_tooltip")
+![alt_text](images/image_16.png "image_tooltip")
 
 
 ## ALS integration
 
 Since **Advanced Locomotion System** uses several skeletal meshes, and when replacing one of them, it is required to hide one of them by default, there are problems with displaying this mesh after optimization. To avoid this, use a special tag to ignore mesh optimization - "IgnoreOptimization". Example:
 
-![alt_text](images/image19.png "image_tooltip")
+![alt_text](images/image_17.png "image_tooltip")
 
-![alt_text](images/image20.png "image_tooltip")
+![alt_text](images/image_18.png "image_tooltip")
 
 # Console variables
 
@@ -257,7 +257,7 @@ npc.optimizator.DrawDebug (default 0) - Forcing debug rendering for all optimize
 
 You can enable the display of optimization statistics using the console command : stat NPC_Optimizator
 
-![alt_text](images/image21.png "image_tooltip")
+![alt_text](images/image_19.png "image_tooltip")
 
 
 Where :
