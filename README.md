@@ -243,6 +243,9 @@ Since **Advanced Locomotion System** uses several skeletal meshes, and when repl
 
 ![alt_text](images/image_18.png "image_tooltip")
 
+## Package issue for blueprint project
+If you moved the plugin to the projects folder, then you need a C++ project in order for the plugin to work after packaging
+
 # Console variables
 
 npc.optimizator.fov (default 90) - Used for setting FOV for optimization
