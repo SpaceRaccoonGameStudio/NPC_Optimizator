@@ -63,8 +63,6 @@ Also if you want you can download an [example project](https://drive.google.com/
 
 ## Blueprint project
 
-
-
 1. Open your NPC blueprint
 
 ![alt_text](images/image_3.png "image_tooltip")
@@ -111,7 +109,7 @@ Optimization component have a huge number of settings for balancing between qual
 ![alt_text](images/image_11.png "image_tooltip")
 
 
-**General settings**
+## General settings
 
 **Distance to first optimization** - Distance from the player camera to the NPC at which the first wave of optimizations is activated. Bots closer to this distance are not optimized.
 
@@ -137,11 +135,11 @@ Optimization component have a huge number of settings for balancing between qual
 
 **Disable Optimizations On Listen Server** -  When using a listener server, there are moments when the client-server does not see bots and because of this, other players have visual glitches, to avoid this, bots on the listener server ignore any optimizations
 
-**Waves settings**
+## Waves settings
 
 These settings are applied to optimization waves. You can adjust this for each wave separately.
 
-**Movement optimizations**
+## Movement optimizations
 
 **Always check floor** - Whether we always force floor checks for stationary Characters while walking.Normally floor checks are avoided if possible when not moving, but this can be used to force them if there are use-cases where they are being skipped erroneously (such as objects moving up into the character from below).
 
@@ -165,11 +163,12 @@ These settings are applied to optimization waves. You can adjust this for each w
 
 **Use random movement tick** - Enable random movement component tick
 
-**Skeletal mesh optimizations**
+## Skeletal mesh optimizations
 
 **Hide shadows** - Whether it is necessary to turn off shadows on this wave
 
-**Disable mesh collision** - Whether it is necessary to turn off the collision of the mesh on this wave \
+**Disable mesh collision** - Whether it is necessary to turn off the collision of the mesh on this wave 
+
 **Need hide static meshes** -Whether or not the character should hide attached static meshes on this wave
 
 **Use URO (Update Rate Optimization)** - if true, the owner will determine how often animation will be updated and evaluated. This allows skipping frames for performance. (For example based on visibility and size on screen).
