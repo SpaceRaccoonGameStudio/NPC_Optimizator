@@ -307,7 +307,7 @@ A: Now it is Win32,Win64, Mac, Linux, Android, IOS - tested & worked. Potentiall
 
 If you have any additional questions or suggestions, do not hesitate to express them. You can
 
-do it through my official discord group or via email
+do it through our official discord group or via email
 
 **Discord** : [https://discord.gg/4FtCJnMuxb](https://discord.gg/4FtCJnMuxb)
 
