@@ -16,6 +16,15 @@ NPC Optimizator it is a plugin for UE4 provide you automatic flexible optimizati
 * This plugin doesn't just remove and spawn bots for $100, it really optimizes them.
 * Supports integration with Advanced Locomotion System (and with many others)
 
+# Table of content:
+ - [How it is work?](#how-it-is-work)
+ - [Instalation](#installation)
+ - [Integration into your project](#integration-into-your-project)
+ - [Component settings](#component-settings)
+ - [Troubleshooting](#troubleshooting)
+ - [Console variables](#console-variables)
+ - [FAQ](#faq)
+ - [Support](#support)
 
 # How it is work?
 
