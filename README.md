@@ -1,6 +1,6 @@
 # NPC Optimizator
 # What is it?
-NPC Optimizator it is a plugin for UE4 provide you automatic flexible optimization for your NPCs
+**[NPC Optimizator](https://www.unrealengine.com/marketplace/en-US/product/npc-optimizator)** it is a plugin for UE4 provide you automatic flexible optimization for your NPCs
 # Features
 
 * Automatic NPC optimization based on Character & Pawn class
