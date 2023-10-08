@@ -309,6 +309,6 @@ If you have any additional questions or suggestions, do not hesitate to express 
 
 do it through our official discord group or via email
 
-**Discord** : [https://discord.gg/4FtCJnMuxb](https://discord.gg/4FtCJnMuxb)
+**Discord** : [Click to join](https://discord.gg/4FtCJnMuxb)
 
 **Email** : [support@space-raccoon.com](mailto:support@space-raccoon.com)
