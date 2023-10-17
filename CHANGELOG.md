@@ -1,3 +1,15 @@
+# v.1.6.3
+
+### Fixed:
+- Issue with wrong change wave event execution
+- Return missed variable - "Disable Optimizations On Listen Server" (by default: false)
+- Crash on some cases
+
+### Added: 
+- New option "Disable optimization on dedicated server" (by default: true)
+- Groom component optimization for metahumans
+- Add support non pawn/characters actors
+
 # v.1.6.2
 
 ### Improved:
