@@ -9,6 +9,7 @@
 - New option "Disable optimization on dedicated server" (by default: true)
 - Groom component optimization for metahumans
 - Add support non pawn/characters actors
+- New option "Skip optimization in simulation mode"
 
 # v.1.6.2
 
