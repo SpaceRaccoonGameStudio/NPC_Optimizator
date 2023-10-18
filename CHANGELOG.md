@@ -1,3 +1,14 @@
+# v.1.6.5
+
+### Fixed:
+- Issue with show already hidden meshes
+- Issue with wrong work "Allow rigid body anim node" option
+
+# v.1.6.4
+
+### Fixed:
+- Issue with loading plugin without HairStrands plugin
+
 # v.1.6.3
 
 ### Fixed:
