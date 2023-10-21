@@ -1,6 +1,15 @@
 # v.1.6.5
 
 ### Fixed:
+- Some variables had an incorrect name or description
+
+### Added:
+- Added property "Optimize AI controller" (by default true)
+- Added property "Optimize path follow component" (by default true)
+
+# v.1.6.5
+
+### Fixed:
 - Issue with show already hidden meshes
 - Issue with wrong work "Allow rigid body anim node" option
 
