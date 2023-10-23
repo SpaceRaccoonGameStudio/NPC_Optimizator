@@ -1,7 +1,8 @@
-# v.1.6.5
+# v.1.6.6
 
 ### Fixed:
 - Some variables had an incorrect name or description
+- Client crash when post process LOD equal main mesh LOD
 
 ### Added:
 - Added property "Optimize AI controller" (by default true)
